@@ -53,6 +53,16 @@ h2 {
 
 h3 {
   /* Default font, size, and margins */
+  height: 56px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #231f20;
 }
 
 h4 {
