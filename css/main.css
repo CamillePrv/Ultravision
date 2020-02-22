@@ -31,6 +31,7 @@ h1 {
   background-color: #fcce00;
   opacity: 0.81;
   margin: 8px 0px;
+  height: 128px;
 }
 
 h2 {
@@ -47,6 +48,7 @@ h2 {
   opacity: 0.81;
   background-color: #ff6b00;
   margin: 8px 0px;
+  height: 64px;
 }
 
 h3 {
@@ -80,8 +82,24 @@ a:hover {
 * Layout
 * ------
 */
-
-
+.color-sub-title-one {
+  height: 32px;
+  opacity: 0.81;
+  background-color: #e02020;
+  margin: 8px 0px;
+}
+.color-sub-title-two{
+  height: 16px;
+  opacity: 0.81;
+  background-color: #b620e0;
+  margin: 8px 0px;
+}
+.color-sub-title-three {
+  height: 8px;
+  opacity: 0.81;
+  background-color: #6236ff;
+  margin: 8px 0px;
+}
 
 
 /**
