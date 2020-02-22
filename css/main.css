@@ -4,6 +4,7 @@
 * Global Styles
 * -------------
 */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
 
 body {
   /* Default font family and font color */
@@ -16,11 +17,36 @@ p, li, textarea, label, input, select {
 
 
 h1 {
-   /* Default font, size, and margins */
+  /* Default font, size, and margins */
+  font-family: 'Poppins';
+  font-size: 88px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background-color: #fcce00;
+  opacity: 0.81;
+  margin: 8px 0px;
 }
 
 h2 {
   /* Default font, size, and margins */
+  font-family: 'Poppins';
+  font-size: 38px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.81;
+  background-color: #ff6b00;
+  margin: 8px 0px;
 }
 
 h3 {
