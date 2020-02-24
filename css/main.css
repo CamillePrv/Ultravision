@@ -160,7 +160,7 @@ a:hover {
   color: #231f20;
   margin-bottom:30px
 }
-.Computer, .Game, .Arcade{
+.Computer, .Game {
   width: 487px;
   height: 471px;
   object-fit: contain;
@@ -259,8 +259,60 @@ rgba(224, 32, 32, 0.1) 93.75% 96.875%,
 rgba(224, 32, 32, 0.05) 96.875% 100%
 );
 }
+.Arcade {
+  width: 745px;
+  height: 576px;
+  margin-top: 18px;
+  mix-blend-mode: multiply;
+}
 
-
+.box div.col.contentArcade {
+  width: 694px;
+  margin: 0px 60px;
+}
+.box div.col.contentArcade p {
+  width: 487px;
+  height: 66px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+h4.title-content-arcade {
+  width: 640px;
+  height: 45px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: unset;
+  color: #ffffff;
+  margin-top: 64px;
+}
+.learn-more-arcade {
+  width: 185px;
+  height: 45px;
+  border-radius: 15px;
+  border: solid 4px #ffffff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  background: transparent;
+  color: #ffffff;
+}
 /**
 * ----------
 * Components
