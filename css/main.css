@@ -160,7 +160,7 @@ a:hover {
   color: #231f20;
   margin-bottom:30px
 }
-.Computer, .Game {
+.Computer, .Game, .Arcade{
   width: 487px;
   height: 471px;
   object-fit: contain;
@@ -244,6 +244,20 @@ button.learn-more-game {
   letter-spacing: normal;
   text-align: center;
   color: #231f20;
+}
+.AreaArcade {
+  width: 1440px;
+  height: 640px;
+  
+  background: #fff;
+  background: linear-gradient(to bottom,
+rgba(224, 32, 32, 0.81) 0% 50%,
+rgba(224, 32, 32, 0.61) 50% 75%,
+rgba(224, 32, 32, 0.41) 75% 87.5%,
+rgba(224, 32, 32, 0.21) 87.5% 93.75%,
+rgba(224, 32, 32, 0.1) 93.75% 96.875%,
+rgba(224, 32, 32, 0.05) 96.875% 100%
+);
 }
 
 
