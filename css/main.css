@@ -182,6 +182,9 @@ rgba(252,206,0, 0.01) 96.875% 100%
   justify-content: flex-end;
   align-items: flex-end;
 }
+img.Computer {
+  margin-right: 15px;
+}
 .areaGame {
   width: 720px;
   height: 512px;
@@ -245,32 +248,19 @@ button.learn-more-game {
   text-align: center;
   color: #231f20;
 }
-.AreaArcade {
-  width: 1440px;
-  height: 640px;
-  
-  background: #fff;
-  background: linear-gradient(to bottom,
-rgba(224, 32, 32, 0.81) 0% 50%,
-rgba(224, 32, 32, 0.61) 50% 75%,
-rgba(224, 32, 32, 0.41) 75% 87.5%,
-rgba(224, 32, 32, 0.21) 87.5% 93.75%,
-rgba(224, 32, 32, 0.1) 93.75% 96.875%,
-rgba(224, 32, 32, 0.05) 96.875% 100%
-);
-}
-.Arcade {
+
+.advance .advance-img {
   width: 745px;
   height: 576px;
   margin-top: 18px;
   mix-blend-mode: multiply;
 }
 
-.box div.col.contentArcade {
+.advance .content {
   width: 694px;
   margin: 0px 60px;
 }
-.box div.col.contentArcade p {
+.advance .content p {
   width: 487px;
   height: 66px;
   font-family: Poppins;
@@ -283,7 +273,7 @@ rgba(224, 32, 32, 0.05) 96.875% 100%
   color: #ffffff;
   margin-bottom: 32px;
 }
-h4.title-content-arcade {
+.advance h4.title-content {
   width: 640px;
   height: 45px;
   font-family: Poppins;
@@ -297,7 +287,7 @@ h4.title-content-arcade {
   color: #ffffff;
   margin-top: 64px;
 }
-.learn-more-arcade {
+.advance button {
   width: 185px;
   height: 45px;
   border-radius: 15px;
@@ -313,6 +303,46 @@ h4.title-content-arcade {
   background: transparent;
   color: #ffffff;
 }
+.advance .box.arcade {
+  width: 1440px;
+  height: 640px;
+  background: #fff;
+  background: linear-gradient(to bottom,
+rgba(224, 32, 32, 0.81) 0% 50%,
+rgba(224, 32, 32, 0.61) 50% 75%,
+rgba(224, 32, 32, 0.41) 75% 87.5%,
+rgba(224, 32, 32, 0.21) 87.5% 93.75%,
+rgba(224, 32, 32, 0.1) 93.75% 96.875%,
+rgba(224, 32, 32, 0.05) 96.875% 100%
+);
+}
+.advance .box.color {
+  width: 1440px;
+  height: 640px;
+  background: #fff;
+  background: linear-gradient(to bottom,
+rgba(182, 32, 224, 0.81) 0% 50%,
+rgba(182, 32, 224, 0.61) 50% 75%,
+rgba(182, 32, 224, 0.41) 75% 87.5%,
+rgba(182, 32, 224, 0.21) 87.5% 93.75%,
+rgba(182, 32, 224, 0.1) 93.75% 96.875%,
+rgba(182, 32, 224, 0.05) 96.875% 100%
+);
+}
+.advance .box.computer{
+  width: 1440px;
+  height: 640px;
+  background: #fff;
+  background: linear-gradient(to bottom,
+rgba(98, 54, 255, 0.81) 0% 50%,
+rgba(98, 54, 255, 0.61) 50% 75%,
+rgba(98, 54, 255, 0.41) 75% 87.5%,
+rgba(98, 54, 255, 0.21) 87.5% 93.75%,
+rgba(98, 54, 255, 0.1) 93.75% 96.875%,
+rgba(98, 54, 255, 0.05) 96.875% 100%
+);
+}
+
 /**
 * ----------
 * Components
