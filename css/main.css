@@ -345,8 +345,6 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
 
 .releases {
   width: 1440px;
-  height: 2229px;
-  background-color: #231f20;
 }
 .releases h3 {
   margin: 0 auto;
@@ -374,9 +372,105 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
 }
 .wrapper div {
   height: 320px;
-  border: 1px solid white;
 }
+.endmap {
+  width: 1440px;
+  height: 2229px;
+  background-color: #231f20;
+}
+.contact {
+  height: 1021px;
+}
+.contact h3 {
+  margin: 0 auto;
+  padding-bottom: 64px;
+  margin-bottom: 64px;
+  padding-top: 64px;
+  width: 316px;
+  height: 56px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.wrapper-form input, .wrapper-form select {
+  width: 320px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #231f20;
+  margin-bottom: 21px;
+  padding: 8px;
+}
+.wrapper-form label {
+  width: 49px;
+  /* height: 23px; */
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 5px;
+  padding: 0 8px;
+}
+.wrapper-form input:placeholder  {
+  width: 128px;
+  height: 23px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #231f20;
+} 
+.contact .col:first-child {
+  width: 384px;
+}
+.contact .col:nth-child(2) {
+  width: 560px;
+}
+.contact form {
+  margin: 0 248px;
+  display: flex;
+}
+.contact textarea {
+  width: 560px;
+  height: 212px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  
+}
+.contact textarea {
+ 
+  font-family: Poppins;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #231f20;
 
+}
 /**
 * ----------
 * Components
