@@ -517,19 +517,73 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   .box {
     display: flex;
     flex-direction: column-reverse;
-}
-.box div.col {
+  }
+  .box div.col {
   margin: 0;
-}
-.Computer, .Game {
+  }
+  .Computer {
   width: 236.7px;
   height: 229.1px;
   object-fit: contain;
   mix-blend-mode: multiply;
-}
-.areaComputer {
+  }
+  .areaComputer {
     width: 350px;
     height: 249px;
+  }
+  img.Computer {
+  margin-right: 7.3px;
+  width: 236.7px;
+  height: 229.1px;
+  object-fit: contain;
+  }
+  h4.title-content {
+    width: 320px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    color: #231f20;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
-
+.box div.col.contentComputer p {
+  width: 320px;
+  height: 722px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #231f20;
+  margin: 0 auto;
+}
+button.learn-more-computer {
+  width: 185px;
+  margin: 0 auto;
+  margin-top: 64px;
+  margin-bottom: 32px;
+  display: flex;
+  float: unset;
+  justify-content: center;
+}
+.two .box {
+  display: flex;
+  flex-direction: column;
+}
+.areaGame {
+  width: 350px;
+  height: 248.7px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.Game {
+  width: 183.5px;
+  height: 236.8px;
+}
+  
 }
