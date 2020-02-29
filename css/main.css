@@ -537,7 +537,7 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   height: 229.1px;
   object-fit: contain;
   }
-  h4.title-content {
+  .one h4.title-content {
     width: 320px;
     height: 25px;
     font-family: Poppins;
@@ -585,5 +585,104 @@ button.learn-more-computer {
   width: 183.5px;
   height: 236.8px;
 }
-  
+h4.title-content-game {
+  width: 320px;
+  height: 75px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  color: #231f20;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.box div.col.contentGame p {
+    width: 320px;
+    height: 345px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #231f20;
+    margin: 0 auto;
+    margin-bottom: 53px;
+}
+.learn-more-game {
+  display: none;
+}
+.advance .advance-img {
+  width: 320px;
+  height: 247.5px;
+  object-fit: contain;
+  opacity: 0.9;
+  mix-blend-mode: darken;
+  margin: 0 auto;
+  margin-left: 15px;
+}
+.advance .box {
+  width: 350px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+}
+.content .advance h4 {
+  width: 320px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 33px;
+}
+.advance h3 {
+  width: 320px;
+  height: 28px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.advance .content p {
+  width: 320px;
+  height: 75px;
+  font-size: 18px;
+  margin-left: 15px;
+}
+.advance button {
+  width: 320px;
+  height: 45px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  margin-bottom: 31px;
+}
+.releases h3 {
+  color: #fff;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 320px);
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  justify-content: unset;
+  margin: 15px;
+}
+.releases {
+  width: 350px;
+  height: 972px;
+  overflow: hidden;
+
+}
+.endmap {
+  width: 350px;
+  height: 100%;
+  background-color: #231f20;
+}
+.contact {
+  display: none;
+}
 }
