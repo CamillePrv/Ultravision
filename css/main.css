@@ -17,8 +17,6 @@ p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
 
-
-
 h1 {
   /* Default font, size, and margins */
   font-family: 'Poppins';
@@ -473,6 +471,65 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
 }
 /**
 * ----------
-* Components
+* Media queries
 * ----------
 */
+@media screen and (max-width: 350px) {
+  body {
+    /* Default font family and font color */
+    width: 350px;
+    margin: 0 auto;
+    height: 5281px
+  }
+  h1 {
+    width: 350px;
+    height: 128px;
+    opacity: 0.81;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  } 
+  h2.section-title {
+    width: 350px;
+  height: 64px;
+  opacity: 0.81;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .content h3 {
+    width: 320px;
+    height: 56px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    color: #231f20;
+    margin: 32px 15px;
+  }
+  .box {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.box div.col {
+  margin: 0;
+}
+.Computer, .Game {
+  width: 236.7px;
+  height: 229.1px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+.areaComputer {
+    width: 350px;
+    height: 249px;
+}
+
+}
