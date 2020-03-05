@@ -10,7 +10,6 @@ body {
   /* Default font family and font color */
   width: 1440px;
   margin: 0 auto;
-  height: 5896px;
 }
 
 h1 {
@@ -90,9 +89,6 @@ h4 {
   display: flex;
 }
 
-.box div.col {
-  margin: 0px 32px 64px 48px;
-}
 .box div.col.contentComputer p {
   width: 640px;
   height: 345px;
@@ -125,6 +121,15 @@ h4 {
   height: 471px;
   object-fit: contain;
   mix-blend-mode: multiply;
+}
+.box div.col.contentComputer {
+  padding: 0px 32px 0 48px;
+}
+.two .box {
+  margin-top: 64px;
+}
+.col.contentGame {
+    padding: 0 32px;
 }
 .areaComputer {
   width: 720px;
@@ -218,7 +223,7 @@ button.learn-more-game {
 
 .advance .content {
   width: 694px;
-  margin: 0px 60px;
+  padding: 0px 0px 0px 60px;
 }
 .advance .content p {
   width: 487px;
@@ -338,9 +343,7 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   height: 2229px;
   background-color: #231f20;
 }
-.contact {
-  height: 1021px;
-}
+
 .contact h3 {
   margin: 0 auto;
   padding-bottom: 64px;
@@ -436,7 +439,7 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
 * Media queries
 * ----------
 */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
   body {
     /* Default font family and font color */
     width: 350px;
@@ -481,8 +484,9 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
     flex-direction: column-reverse;
   }
   .box div.col {
-  margin: 0;
-  }
+    margin: 0;
+    padding: 0 !important;
+}
   .Computer {
   width: 236.7px;
   height: 229.1px;
@@ -524,13 +528,13 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   margin: 0 auto;
   }
   button.learn-more-computer {
-  width: 185px;
-  margin: 0 auto;
-  margin-top: 64px;
-  margin-bottom: 32px;
-  display: flex;
-  float: unset;
-  justify-content: center;
+    width: 185px;
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 0px;
+    display: flex;
+    float: unset;
+    justify-content: center;
   }
   .two .box {
   display: flex;
@@ -604,6 +608,9 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
     height: 28px;
     margin: 0 auto;
     margin-bottom: 32px;
+  }
+  .advance .box {
+    width: 350px !important;
   }
   .advance .content p {
     width: 320px;
