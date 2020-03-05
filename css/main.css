@@ -135,7 +135,7 @@ h4 {
   width: 720px;
   height: 512px;
   background: #fff;
-  background: linear-gradient(to bottom,
+  background-image: linear-gradient(to bottom,
 rgba(252,206,0, 0.81) 0% 50%,
 rgba(252,206,0, 0.61) 50% 75%,
 rgba(252,206,0, 0.41) 75% 87.5%,
@@ -154,7 +154,7 @@ img.Computer {
   width: 720px;
   height: 512px;
   background: #fff;
-  background: linear-gradient(to bottom,
+  background-image: linear-gradient(to bottom,
 rgba(255,107,0, 0.81) 0% 50%,
 rgba(255,107,0, 0.61) 50% 75%,
 rgba(255,107,0, 0.41) 75% 87.5%,
@@ -272,7 +272,7 @@ button.learn-more-game {
   width: 1440px;
   height: 640px;
   background: #fff;
-  background: linear-gradient(to bottom,
+  background-image: linear-gradient(to bottom,
 rgba(224, 32, 32, 0.81) 0% 50%,
 rgba(224, 32, 32, 0.61) 50% 75%,
 rgba(224, 32, 32, 0.41) 75% 87.5%,
@@ -285,7 +285,7 @@ rgba(224, 32, 32, 0.05) 96.875% 100%
   width: 1440px;
   height: 640px;
   background: #fff;
-  background: linear-gradient(to bottom,
+  background-image: linear-gradient(to bottom,
 rgba(182, 32, 224, 0.81) 0% 50%,
 rgba(182, 32, 224, 0.61) 50% 75%,
 rgba(182, 32, 224, 0.41) 75% 87.5%,
@@ -298,7 +298,7 @@ rgba(182, 32, 224, 0.05) 96.875% 100%
   width: 1440px;
   height: 640px;
   background: #fff;
-  background: linear-gradient(to bottom,
+  background-image: linear-gradient(to bottom,
 rgba(98, 54, 255, 0.81) 0% 50%,
 rgba(98, 54, 255, 0.61) 50% 75%,
 rgba(98, 54, 255, 0.41) 75% 87.5%,
